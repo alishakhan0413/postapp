@@ -1,0 +1,56 @@
+body {
+    background-color: #fff6f7;
+    color: #292329;
+}
+
+.navbarColor {
+    background-color: #f3dce2;
+}
+
+.formCard {
+    max-width: 400px;
+}
+
+.postBtn {
+    background-color: #b86b83;
+    color: white;
+}
+
+.postBtn:hover {
+    background-color: #99536b;
+    color: white;
+}
+
+.bgImg {
+    width: 18%;
+    height: 65px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.selected {
+    border: 3px solid #b86b83;
+}
+
+
+.postCard {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 300px;
+}
+
+.postContent {
+    background: rgba(255, 255, 255, 0.80);
+    border-radius: 8px;
+}
+.postContent h2 {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.postContent button {
+    width: auto;
+}
