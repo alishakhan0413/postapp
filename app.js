@@ -121,8 +121,8 @@ function showPosts() {
          <h2>${titles[i]}</h2>
          <p>${descriptions[i]}</p>
          <div class="d-flex gap-2">
-    <button class="btn" onclick="editPost(${i})">Edit</button>
-     <button class="btn btn-danger" onclick="deletePost(${i})">Delete</button>
+    <button class="editBtn" onclick="editPost(${i})">Edit</button>
+     <button class="deleteBtn" onclick="deletePost(${i})">Delete</button>
          </div>
      </div>
      </div>

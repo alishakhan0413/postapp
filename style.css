@@ -54,3 +54,12 @@ body {
 .postContent button {
     width: auto;
 }
+.editBtn {
+    background-color: #B76E85;
+    color: white;
+}
+
+.deleteBtn {
+    background-color: #80536B;
+    color: white;
+}
